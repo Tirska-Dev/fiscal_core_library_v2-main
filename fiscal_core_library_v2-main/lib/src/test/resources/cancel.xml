@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<CHECK xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CHECKHEAD>
+    <DOCTYPE>0</DOCTYPE>
+    <DOCSUBTYPE>5</DOCSUBTYPE>
+    <UID>c9831340-55c0-43ea-99d8-eb43664df00c</UID>
+    <TIN>34554363</TIN>
+    <IPN>123456789020</IPN>
+    <ORGNM>Тестовий платник 4</ORGNM>
+    <POINTNM>Магазин Іван-Тест</POINTNM>
+    <POINTADDR>УКРАЇНА, СУМСЬКА ОБЛ., М. СУМИ, вул. Соборна 1</POINTADDR>
+    <ORDERDATE>17012022</ORDERDATE>
+    <ORDERTIME>205523</ORDERTIME>
+    <ORDERNUM>33443</ORDERNUM>
+    <CASHDESKNUM>24</CASHDESKNUM>
+    <CASHREGISTERNUM>4000066879</CASHREGISTERNUM>
+    <ORDERSTORNUM>184087284</ORDERSTORNUM>
+    <CASHIER>Для РРО № 4000066879</CASHIER>
+    <VER>1</VER>
+  </CHECKHEAD>
+</CHECK>

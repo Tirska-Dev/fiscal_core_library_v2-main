@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<ZREP>
+   <ZREPHEAD>
+      <UID>5555555-0f0f-4a4a-b3b3-000000000000</UID>
+      <TIN>34554363</TIN>
+      <IPN>123456789020</IPN>
+      <ORGNM>Тестовий платник 4</ORGNM>
+      <POINTNM>Магазин Іван-Тест</POINTNM>
+      <POINTADDR>УКРАЇНА, СУМСЬКА ОБЛ., М. СУМИ, вул. Соборна 1</POINTADDR>
+      <ORDERDATE>17012022</ORDERDATE>
+      <ORDERTIME>030222</ORDERTIME>
+      <ORDERNUM>33555</ORDERNUM>
+      <CASHDESKNUM>24</CASHDESKNUM>
+      <CASHREGISTERNUM>4000066879</CASHREGISTERNUM>
+      <CASHIER>Для РРО № 4000066879</CASHIER>
+      <VER>1</VER>
+      <ORDERTAXNUM>434343.1.1616</ORDERTAXNUM>
+      <OFFLINE>true</OFFLINE>
+      <PREVDOCHASH>53b0ff715c05d78eb94eb3f07807b80ec7c39aee38316532019eb6eb83799e3c</PREVDOCHASH>
+      <REVOKED>false</REVOKED>
+      <TESTING>true</TESTING>
+   </ZREPHEAD>
+   <ZREPREALIZ>
+      <SUM>3333.66</SUM>
+      <PWNSUMISSUED>0.00</PWNSUMISSUED>
+      <PWNSUMRECEIVED>0.55</PWNSUMRECEIVED>
+      <ORDERSCNT>3</ORDERSCNT>
+      <PAYFORMS>
+         <ROW ROWNUM="1">
+            <PAYFORMCD>2</PAYFORMCD>
+            <PAYFORMNM>КАРТКА</PAYFORMNM>
+            <SUM>250.12</SUM>
+         </ROW>
+         <ROW ROWNUM="2">
+            <PAYFORMCD>0</PAYFORMCD>
+            <PAYFORMNM>Готівка</PAYFORMNM>
+            <SUM>6084.40</SUM>
+         </ROW>
+      </PAYFORMS>
+      <TAXES>
+         <ROW ROWNUM="1">
+            <TYPE>1</TYPE>
+            <NAME>Акциз</NAME>
+            <LETTER>М</LETTER>
+            <PRC>5.00</PRC>
+            <SIGN>false</SIGN>
+            <TURNOVER>259.90</TURNOVER>
+            <SOURCESUM>244.90</SOURCESUM>
+            <SUM>11.66</SUM>
+         </ROW>
+         <ROW ROWNUM="2">
+            <TYPE>0</TYPE>
+            <NAME>ПДВ</NAME>
+            <LETTER>В</LETTER>
+            <PRC>0.00</PRC>
+            <SIGN>false</SIGN>
+            <TURNOVER>1260.00</TURNOVER>
+            <SOURCESUM>1260.00</SOURCESUM>
+            <SUM>0.00</SUM>
+         </ROW>
+      </TAXES>
+   </ZREPREALIZ>
+   <ZREPRETURN>
+      <SUM>4444.77</SUM>
+      <PWNSUMISSUED>0.66</PWNSUMISSUED>
+      <PWNSUMRECEIVED>0.00</PWNSUMRECEIVED>
+      <ORDERSCNT>4</ORDERSCNT>
+      <PAYFORMS>
+         <ROW ROWNUM="1">
+            <PAYFORMCD>2</PAYFORMCD>
+            <PAYFORMNM>КАРТКА</PAYFORMNM>
+            <SUM>249.11</SUM>
+         </ROW>
+         <ROW ROWNUM="2">
+            <PAYFORMCD>1</PAYFORMCD>
+            <PAYFORMNM>Банківська картка</PAYFORMNM>
+            <SUM>1260.28</SUM>
+         </ROW>
+      </PAYFORMS>
+      <TAXES>
+         <ROW ROWNUM="1">
+            <TYPE>1</TYPE>
+            <NAME>Акциз</NAME>
+            <LETTER>М</LETTER>
+            <PRC>5.00</PRC>
+            <SIGN>false</SIGN>
+            <TURNOVER>824.70</TURNOVER>
+            <SOURCESUM>779.70</SOURCESUM>
+            <SUM>37.12</SUM>
+         </ROW>
+         <ROW ROWNUM="2">
+            <TYPE>0</TYPE>
+            <NAME>ПДВ</NAME>
+            <LETTER>Б</LETTER>
+            <PRC>7.00</PRC>
+            <SIGN>false</SIGN>
+            <TURNOVER>11260.00</TURNOVER>
+            <SOURCESUM>11260.00</SOURCESUM>
+            <SUM>0.00</SUM>
+         </ROW>
+      </TAXES>
+   </ZREPRETURN>
+   <ZREPCASH>
+      <SUM>2244.96</SUM>
+      <COMMISSION>10.00</COMMISSION>
+      <ORDERSCNT>4</ORDERSCNT>
+   </ZREPCASH>
+   <ZREPBODY>
+      <SERVICEINPUT>8.00</SERVICEINPUT>
+      <SERVICEOUTPUT>10.00</SERVICEOUTPUT>
+   </ZREPBODY>
+</ZREP>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<CHECK xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CHECKHEAD>
+    <DOCTYPE>0</DOCTYPE>
+    <DOCSUBTYPE>0</DOCSUBTYPE>
+    <UID>8b826687-4521-496b-a6cd-a2e5779bd2bf</UID>
+    <TIN>34554363</TIN>
+    <IPN>123456789020</IPN>
+    <ORGNM>Тестовий платник 4</ORGNM>
+    <POINTNM>Магазин Іван-Тест</POINTNM>
+    <POINTADDR>УКРАЇНА, СУМСЬКА ОБЛ., М. СУМИ, вул. Соборна 1</POINTADDR>
+    <ORDERDATE>17012022</ORDERDATE>
+    <ORDERTIME>205522</ORDERTIME>
+    <ORDERNUM>33440</ORDERNUM>
+    <CASHDESKNUM>24</CASHDESKNUM>
+    <CASHREGISTERNUM>4000066879</CASHREGISTERNUM>
+    <CASHIER>Для РРО № 4000066879</CASHIER>
+    <VER>1</VER>
+  </CHECKHEAD>
+  <CHECKTOTAL>
+    <SUM>203.12</SUM>
+    <DISCOUNTSUM>2.00</DISCOUNTSUM>
+  </CHECKTOTAL>
+  <CHECKPAY>
+    <ROW ROWNUM="1">
+      <PAYFORMCD>2</PAYFORMCD>
+      <PAYFORMNM>КАРТКА</PAYFORMNM>
+      <SUM>203.12</SUM>
+      <PROVIDED>203.12</PROVIDED>
+      <REMAINS>0.00</REMAINS>
+    </ROW>
+  </CHECKPAY>
+  <CHECKTAX>
+    <ROW ROWNUM="1">
+      <TYPE>0</TYPE>
+      <NAME>ПДВ</NAME>
+      <LETTER>A</LETTER>
+      <PRC>20.00</PRC>
+      <SIGN>false</SIGN>
+      <TURNOVER>205.12</TURNOVER>
+      <SOURCESUM>203.12</SOURCESUM>
+      <SUM>33.85</SUM>
+    </ROW>
+  </CHECKTAX>
+  <CHECKBODY>
+    <ROW ROWNUM="1">
+      <CODE>501000334</CODE>
+      <NAME>Дріт ПВС 2 * 2.5</NAME>
+      <UNITCD>4</UNITCD>
+      <UNITNM>м/п</UNITNM>
+      <AMOUNT>2.500</AMOUNT>
+      <PRICE>22.49</PRICE>
+      <LETTERS>A</LETTERS>
+      <COST>56.23</COST>
+    </ROW>
+    <ROW ROWNUM="2">
+      <CODE>501005869</CODE>
+      <NAME>Касета до подовжувача MAKEL б/заз. 3яч. MGP121</NAME>
+      <UNITCD>1</UNITCD>
+      <UNITNM>шт</UNITNM>
+      <AMOUNT>1.000</AMOUNT>
+      <PRICE>81.90</PRICE>
+      <LETTERS>A</LETTERS>
+      <COST>81.90</COST>
+    </ROW>
+    <ROW ROWNUM="3">
+      <CODE>501001407</CODE>
+      <NAME>Розетка 2-а б/заз. VIKO Carmen крем</NAME>
+      <UNITCD>1</UNITCD>
+      <UNITNM>шт</UNITNM>
+      <AMOUNT>1.000</AMOUNT>
+      <PRICE>47.90</PRICE>
+      <LETTERS>A</LETTERS>
+      <COST>47.90</COST>
+    </ROW>
+    <ROW ROWNUM="4">
+      <CODE>534014477</CODE>
+      <NAME>Вилка штепсельна з заз. LIDER LVL16-074 біл.</NAME>
+      <UNITCD>1</UNITCD>
+      <UNITNM>шт</UNITNM>
+      <AMOUNT>1.000</AMOUNT>
+      <PRICE>19.09</PRICE>
+      <LETTERS>A</LETTERS>
+      <COST>19.09</COST>
+    </ROW>
+  </CHECKBODY>
+</CHECK>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<ZREP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ZREPHEAD>
+        <UID>7e97efcf-2cbb-4e75-a502-7f115002db85</UID>
+        <TIN>34554363</TIN>
+        <IPN>123456789020</IPN>
+        <ORGNM>Тестовий платник 4</ORGNM>
+        <POINTNM>Магазин Іван-Тест</POINTNM>
+        <POINTADDR>УКРАЇНА, СУМСЬКА ОБЛ., М. СУМИ, вул. Соборна 1</POINTADDR>
+        <ORDERDATE>17012022</ORDERDATE>
+        <ORDERTIME>205525</ORDERTIME>
+        <ORDERNUM>33448</ORDERNUM>
+        <CASHDESKNUM>24</CASHDESKNUM>
+        <CASHREGISTERNUM>4000066879</CASHREGISTERNUM>
+        <CASHIER>Для РРО № 4000066879</CASHIER>
+        <VER>1</VER>
+    </ZREPHEAD>
+    <ZREPREALIZ>
+        <SUM>33363.66</SUM>
+        <PWNSUMISSUED>0.00</PWNSUMISSUED>
+        <PWNSUMRECEIVED>0.00</PWNSUMRECEIVED>
+        <ORDERSCNT>6</ORDERSCNT>
+        <PAYFORMS>
+            <ROW ROWNUM="1">
+                <PAYFORMCD>0</PAYFORMCD>
+                <PAYFORMNM>Готівка</PAYFORMNM>
+                <SUM>18348.20</SUM>
+            </ROW>
+        </PAYFORMS>
+        <TAXES>
+            <ROW ROWNUM="1">
+                <TYPE>0</TYPE>
+                <NAME>ПДВ</NAME>
+                <LETTER>A</LETTER>
+                <PRC>20.00</PRC>
+                <SIGN>false</SIGN>
+                <TURNOVER>15702.16</TURNOVER>
+                <SOURCESUM>14972.56</SOURCESUM>
+                <SUM>2495.42</SUM>
+            </ROW>
+        </TAXES>
+    </ZREPREALIZ>
+    <ZREPRETURN>
+        <SUM>6584.43</SUM>
+        <PWNSUMISSUED>0.00</PWNSUMISSUED>
+        <PWNSUMRECEIVED>0.00</PWNSUMRECEIVED>
+        <ORDERSCNT>1</ORDERSCNT>
+        <PAYFORMS>
+            <ROW ROWNUM="1">
+                <PAYFORMCD>0</PAYFORMCD>
+                <PAYFORMNM>Готівка</PAYFORMNM>
+                <SUM>6084.40</SUM>
+            </ROW>
+        </PAYFORMS>
+        <TAXES>
+            <ROW ROWNUM="1">
+                <TYPE>0</TYPE>
+                <NAME>ПДВ</NAME>
+                <LETTER>A</LETTER>
+                <PRC>20.00</PRC>
+                <SIGN>false</SIGN>
+                <TURNOVER>575.05</TURNOVER>
+                <SOURCESUM>538.39</SOURCESUM>
+                <SUM>89.73</SUM>
+            </ROW>
+        </TAXES>
+    </ZREPRETURN>
+    <ZREPCASH>
+        <SUM>2244.96</SUM>
+        <COMMISSION>10.00</COMMISSION>
+        <ORDERSCNT>2</ORDERSCNT>
+    </ZREPCASH>
+    <ZREPBODY>
+        <SERVICEINPUT>8.00</SERVICEINPUT>
+        <SERVICEOUTPUT>10.00</SERVICEOUTPUT>
+    </ZREPBODY>
+</ZREP>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<CHECK xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CHECKHEAD>
+    <DOCTYPE>3</DOCTYPE>
+    <DOCSUBTYPE>0</DOCSUBTYPE>
+    <UID>c50d7d6c-6504-4272-aab9-d1e930150b34</UID>
+    <TIN>34554363</TIN>
+    <IPN>123456789020</IPN>
+    <ORGNM>Тестовий платник 4</ORGNM>
+    <POINTNM>Магазин Іван-Тест</POINTNM>
+    <POINTADDR>УКРАЇНА, СУМСЬКА ОБЛ., М. СУМИ, вул. Соборна 1</POINTADDR>
+    <ORDERDATE>17012022</ORDERDATE>
+    <ORDERTIME>205524</ORDERTIME>
+    <ORDERNUM>33445</ORDERNUM>
+    <CASHDESKNUM>24</CASHDESKNUM>
+    <CASHREGISTERNUM>4000066879</CASHREGISTERNUM>
+    <CASHIER>Для РРО № 4000066879</CASHIER>
+    <COMMENT>ReqComment</COMMENT>
+    <VER>1</VER>
+  </CHECKHEAD>
+  <CHECKTOTAL>
+    <SUM>1929.80</SUM>
+    <RNDSUM>0.04</RNDSUM>
+    <NORNDSUM>1929.84</NORNDSUM>
+    <COMMISSION>0.00</COMMISSION>
+  </CHECKTOTAL>
+  <CHECKPAY>
+    <ROW ROWNUM="1">
+      <PAYFORMCD>0</PAYFORMCD>
+      <PAYFORMNM>Готівка</PAYFORMNM>
+      <SUM>1929.80</SUM>
+      <PROVIDED>2000.00</PROVIDED>
+      <REMAINS>70.20</REMAINS>
+    </ROW>
+  </CHECKPAY>
+  <CHECKTAX>
+    <ROW ROWNUM="1">
+      <TYPE>0</TYPE>
+      <NAME>ПДВ</NAME>
+      <LETTER>В</LETTER>
+      <PRC>0.00</PRC>
+      <SIGN>false</SIGN>
+      <TURNOVER>1929.84</TURNOVER>
+      <SOURCESUM>1929.84</SOURCESUM>
+      <SUM>0.00</SUM>
+    </ROW>
+  </CHECKTAX>
+  <CHECKBODY>
+    <ROW ROWNUM="1">
+      <CODE>1</CODE>
+      <NAME>Return deposit body </NAME>
+      <DESCRIPTION>dog. 251245 </DESCRIPTION>
+      <UNITCD>1</UNITCD>
+      <UNITNM>sht.</UNITNM>
+      <AMOUNT>1.000</AMOUNT>
+      <PRICE>1211.42</PRICE>
+      <LETTERS>В</LETTERS>
+      <COST>1211.42</COST>
+      <DISCOUNTSUM>0.00</DISCOUNTSUM>
+      <COMMENT>Comment</COMMENT>
+    </ROW>
+    <ROW ROWNUM="2">
+      <CODE>1</CODE>
+      <NAME>Pay a deposit procents</NAME>
+      <DESCRIPTION>dog 251245 </DESCRIPTION>
+      <UNITCD>1</UNITCD>
+      <UNITNM>sht.</UNITNM>
+      <AMOUNT>1.000</AMOUNT>
+      <PRICE>718.42</PRICE>
+      <LETTERS>В</LETTERS>
+      <COST>718.42</COST>
+      <DISCOUNTSUM>0.00</DISCOUNTSUM>
+      <COMMENT>Comment</COMMENT>
+    </ROW>
+  </CHECKBODY>
+</CHECK>
